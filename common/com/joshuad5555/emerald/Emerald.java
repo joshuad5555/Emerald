@@ -77,8 +77,7 @@ public class Emerald {
     //Emum Materials
     public static EnumToolMaterial toolEmerald = EnumHelper.addToolMaterial("EMERALD", 3, 3122, 16F, 6F, 20);
     public static EnumArmorMaterial armorEmerald = EnumHelper.addArmorMaterial("EMERALD", 66, new int[]{6, 16, 12, 6}, 20);
-    
-    
+
     //Pre Initialization
     @EventHandler
     public void load(FMLPreInitializationEvent even) {
