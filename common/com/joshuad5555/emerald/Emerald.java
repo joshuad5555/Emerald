@@ -80,7 +80,7 @@ public class Emerald {
 
     //Pre Initialization
     @EventHandler
-    public void load(FMLPreInitializationEvent even) {
+    public void load(FMLPreInitializationEvent event) {
   
         Configuration config = new Configuration(new File("config/Emerald.cfg"));
         
@@ -103,7 +103,7 @@ public class Emerald {
     
     //Initialization
     @EventHandler
-    public void load(FMLInitializationEvent even) {
+    public void load(FMLInitializationEvent event) {
   
         //Items
         swordEmerald = new ItemEmeraldSword(swordEmeraldID, toolEmerald);
